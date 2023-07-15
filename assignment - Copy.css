@@ -1,0 +1,427 @@
+/* .card{
+    width: 500px ;
+    margin: 100px auto;
+    border-radius: 14px;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    padding: 100px 70px;
+    background-color:rgba(29, 229, 146, 1);
+    line-height: 200%;
+}
+.btn{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    margin-top: 20px;
+    text-decoration: solid;
+    padding: 16px 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: none;
+    margin-top: 10px;
+}
+h6
+{
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+h1{
+    margin-bottom: 20px;
+} 
+.profile-card{
+    width: 500px;
+    margin:150px auto;
+    border-radius: 14px;
+    border:2px solid lightgray;
+    box-sizing: border-box;
+
+}
+.card{
+    color: grey;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 450;
+    padding: 30px;
+    
+
+}
+h1{
+    color: black;
+}
+.line{
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.prp{
+    color: rgb(48, 146, 192);
+    font-size: 25px;
+    text-decoration: 4px solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 30px;
+}
+.food-card{
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 14px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+.user{
+    width: 100%;
+    position: relative;
+    
+    
+}
+.timer{
+    position: absolute;
+    padding: 2px 8px;
+    bottom: 10px;
+    right: 10px;
+    background-color: lightgray;
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 8px;
+}
+
+.offer{
+    position: absolute;
+    bottom: 35px;
+    left: 0px;
+    padding: 5px 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500px;
+
+}
+.small
+{
+    width: 10%;
+}
+.footer{
+    width: 100%;
+    
+    
+}*/
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    height: 60px;
+    padding: 12px 80px;
+    margin-top: -10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: white;
+}
+.logo
+{   
+    margin-top: 120px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(182, 59, 79);
+    }
+.add{
+    display: flex;
+    height: 44px;
+    gap: 14px;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    box-shadow: 2px rgb(167, 167, 167);
+    padding: 0px 56px 0px 16px ;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: start;
+}
+
+.home{
+    display: flex;
+    gap: 13px;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: start;
+}
+.home:hover{
+    text-decoration: underline;
+}
+
+.about{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    
+
+}
+.globe{
+    margin-top: 4px;
+}
+.searchnav{
+    display: flex;
+    padding: 4px 4px 4px 10px;
+    border-radius: 40px;
+    align-items: center;
+    gap: 14px;
+    border: 1px solid lightgray;
+    justify-content: right;
+
+}
+.user{
+    color: rgb(124, 124, 124);
+}
+.genre{
+    width: 1600px;
+    height: 100px;
+    margin-top: 10px 0px;
+    
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    
+    color: grey;
+}
+.img{
+    height: 22px;
+    margin-bottom: -12px;
+    padding: 0px 36px;
+    align-content: center;
+    opacity: 70%;
+    
+}
+.place
+{   
+    padding: 12px 0px;
+    color: grey;
+    text-align: center;
+    
+}
+.img:hover{
+    opacity: 100%;
+}
+p{
+    
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+}
+.btn
+{
+    border: none;
+    color: white;
+    background-color:rgb(182, 59, 79);
+    border-radius: 50%;
+    margin: 10px;
+    padding:10px 10px;
+    margin-left: -40px;
+    
+}
+.filter
+{
+    width: 80px;
+    height: 48px;
+    font-size: 16px;
+    padding: 0px 10px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(88, 88, 88);    
+
+}
+.btn1{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel-card{
+    width: 270px;
+    margin: 0%;
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+    line-height: 40%;
+
+}
+.hotel-card-img{
+    width: 100%;
+    height: 270px;
+    border-radius: 14px;
+}
+span{
+    font-weight: bold;
+}
+.flex
+{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.values{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.container{
+    z-index: 1;
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.topmid{
+    display: flex;
+    align-items: center;
+}
+hr
+{   
+    box-shadow: 1px  lightgray;
+}
+.searchbar
+{
+    margin-top: 20px;
+    width: 500px;
+    display: flex;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    gap: 17px;
+    align-items: center;
+    
+}
+.text1{
+    display: flex;
+    gap: 16px;
+}
+.verticleline{
+        width: 1px;
+        background-color: black;
+        height: 20px;
+}
+.s1{
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+.toggle
+{
+    margin-top: 20px;
+    margin-left: -60px;
+    color: rgb(163, 161, 161);
+}
+.scroll{
+    margin: 0px 50px;
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.sticky{
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    background-color: white;
+}
+.footer{
+    width: 100%;
+    border-top: 1px solid black;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+.fst{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 15px;
+    align-items: center;
+    justify-content: start;
+
+}
+.snd
+{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+    justify-content: end;
+}
+.dot
+{
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 12px;
+}
+.btn2
+{
+    padding: 14px 18px;
+    border-radius: 40px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: fixed;
+    bottom: 10%;
+    right: 46%;
+    border: none;
+  
+    
+}
+.heart{
+    position: relative;
+}
+.inside{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.not{
+    font-size: 16px;
+    color: grey;
+}
